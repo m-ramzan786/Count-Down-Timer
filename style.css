@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --clr-primary: 315, 76%, 23%
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    min-height: 620px;
+    background-color: hsl(var(--clr-primary));
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #ffffff;
+}
+
+.count-down-timer-container {
+    width: 50rem;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.event-name-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.event-name-container input {
+    width: 20rem;
+    height: 2.5rem;
+    border: 0;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.4rem;
+    border: 1px solid #ffffff;
+}
+
+.event-name-container input::-webkit-input-placeholder {
+    color: #ffffff9a;
+}
+
+.event-name-container input:focus {
+    border: 0;
+    border-radius: 0;
+    outline: 1.5px solid #ffffff7b
+}
+
+.event-name-container button {
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border: 0;
+    background-color: #ffffff;
+    color: #000;
+    cursor: pointer;
+}
+
+.date-time-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0.5rem;
+}
+
+.date-time-container input {
+    height: 2.5rem;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #ffffff;
+    padding: 0.5rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.date-time-container label {
+    font-size: 1.2rem;
+}
+
+::-webkit-calendar-picker-indicator {
+    -webkit-filter: invert(1);
+            filter: invert(1);
+}
+
+.start-button {
+    border: 0;
+    width: 15rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #000;
+}
+
+.count-down-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.event-heading {
+    width: 100%;
+    height: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #ffffff;
+}
+
+.event-heading p{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.event-heading span {
+    font-weight: 700;
+}
+
+.count-down-content-container {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    -ms-grid-rows: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 1rem;
+    background-color: #ffffff10;
+    padding-block: 1.5rem;
+    border: 1px solid #ffffff;
+}
+
+.count-down-content-container div {
+    width: 7rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 1px solid #ffffff;
+}
+
+.count-down-content-container div h2 {
+    font-size: 2.5rem;
+    padding-block: 0.5rem;
+}
+
+.count-down-content-container div h3 {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0.2rem;
+    color: #000;
+    text-align: center;
+}
+
+
+@media (max-width: 568px) {
+    .wrapper {
+        padding-inline: 1rem;
+    }
+    .count-down-timer-container {
+        gap: 1rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .event-name-container input {
+        width: 14rem;
+    }
+    .date-time-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 1rem;
+    }
+    .date-time-container input {
+        height: 2rem;
+    }
+    .start-button {
+        height: 2rem;
+        width: 10rem;
+    }
+    .event-heading {
+        height: 3.5rem;
+        padding: 0.5rem;
+        text-align: center;
+    }
+    .event-heading p {
+        font-size: 1.2rem;
+    }
+}
