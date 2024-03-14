@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine.
     ```bash
-    git clone https://github.com/m-ramzan786/Count-Down-Timer.git
+    git clone https://github.com/ramzancodeclub/Count-Down-Timer.git
     ```
 
 2. Open the project folder in your code editor.
@@ -65,7 +65,7 @@ The project is structured for easy navigation, featuring a clean and responsive 
 
 ## Credits
 
-- [Muhammad Ramzan](https://github.com/m-ramzan786) - Project Creator
+- [Muhammad Ramzan](https://github.com/ramzancodeclub) - Project Creator
 
 ## License
 
@@ -73,8 +73,8 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 
 ## Badges
 
-![GitHub top language](https://img.shields.io/github/languages/top/m-ramzan786/Count-Down-Timer)
-![GitHub license](https://img.shields.io/github/license/m-ramzan786/Count-Down-Timer)
+![GitHub top language](https://img.shields.io/github/languages/top/ramzancodeclub/Count-Down-Timer)
+![GitHub license](https://img.shields.io/github/license/ramzancodeclub/Count-Down-Timer)
 
 ## How to Contribute
 
@@ -90,9 +90,9 @@ If you'd like to contribute to the project, follow these steps:
 
 If you have any questions, suggestions, or just want to connect, feel free to reach out:
 
-- Email: [mramzanstv@gmail.com](mramzanstv@gmail.com)
-- Portfolio: [Muhammad-Ramzan-Portfolio](https://muhammad-ramzan.vercel.app/)
-- LinkedIn: [in/m-ramzan786](https://www.linkedin.com/in/m-ramzan786/)
+- Email: [ramzancodeclub@gmail.com](ramzancodeclub@gmail.com)
+- Portfolio: [muhammad-ramzan.vercel.app](https://muhammad-ramzan.vercel.app/)
+- LinkedIn: [in/ramzancodeclub](https://www.linkedin.com/in/ramzancodeclub/)
 
 ## Tests
 
